@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - Program entry point
+ * main - Entry point
  *
- * Return: 0 on success. Error code otherwise
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -11,8 +12,8 @@ int main(void)
 
 	for (num = 0; num < 10; num++)
 	{
-		printf("%d", num);
+		putchar(num + '0');
 	}
-	printf("\n");
+	putchar(10);
 	return (0);
 }
