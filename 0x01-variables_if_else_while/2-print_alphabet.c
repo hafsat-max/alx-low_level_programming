@@ -1,17 +1,19 @@
 #include <stdio.h>
-
 /**
- * main - Prints the alphabet.
+ * main - Program entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success. Error code otherwise
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-	for (i = 0; i < 26; i++)
+	char a = 'a';
+	int n = 0;
+
+	while (n < 26)
 	{
-		putchar(alp[i]);
+		putchar(a);
+		a++;
+		n++;
 	}
 	putchar('\n');
 	return (0);
