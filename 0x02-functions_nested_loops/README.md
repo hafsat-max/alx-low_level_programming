@@ -1,1 +1,1 @@
- file
+ a none empty file
